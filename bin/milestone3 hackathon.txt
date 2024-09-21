@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Milestone_3</title>
+    </head>
+    <body style="background-color: whitesmoke;color: blueviolet;">
+        <p style="text-align: end;">Dynamic Resume building using HTML,CSS & TYPESCRIPT!! </p>
+        <form action="/action_page.php">
+            <p style="color: blueviolet;"><b>PERSONAL DETAILS</b></p><br/>
+            <label>Enter Your Name &nbsp;&nbsp;</label>
+            <input type="text" style="color: darkolivegreen; "/><br/><br/>
+            <label>Enter Your Email&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" style="color: darkblue;"/><br/><br/>
+            <label>Enter Your Address </label>
+            <input type="text" style="color:green" /><br/> <br/>
+            <p>Select Gender</p>
+            <input type="radio" id="Male" name="Gender" value="MALE">
+<label for="Male">MALE</label><br>
+<input type="radio" id="female" name="Gender" value="FEMALE">
+<label for="female">FEMALE</label><br/><br/>
+<label>Your Nationality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+            <input type="text" style="color: crimson;"/><br/><br/>
+            <p style="color: blueviolet;"><b>EDUCATION </b></p><br/>
+            <label for="edu"> Masters??&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="checkbox" id="edu" name="education" value="Graduation" >&nbsp;&nbsp;&nbsp;Name of Degree:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"/><br/><br/>
+
+            <label for="edu"> Bachelors??&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="checkbox" id="edu" name="education" value="Under-Graduation" >&nbsp;&nbsp;&nbsp;Name of Degree:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"/>
+            <br/><br/><label for="edu"> Intermediate??&nbsp;</label>
+            <input type="checkbox" id="edu" name="education" value="Intermediate" >&nbsp;&nbsp;&nbsp;Name of Certificate:<input type="text"/>
+            <br/><br/><label for="edu"> Matriculation??</label>
+            <input type="checkbox" id="edu" name="education" value="Matriculation" >&nbsp;&nbsp;&nbsp;Name of Certificate:<input type="text"/>
+          <br/><br/><br/>
+          <label style="color: blueviolet;"><b>WORK EXPERIENCE(Box is customizable , Adjust accordingly)</b></label><br/><br/>
+          
+          <textarea name="butt" id="buton" style="height: 500; width: 500;">Enter Work Experience.....</textarea>
+        <br/><br/>
+        <p style="background-color: cornflowerblue;color: seashell;">SKILLS</p><br/><br/>
+        <ul style="color: chartreuse;">
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+       
+    </ul>
+    <input type="submit" value="Proceed??" style="text-align:center;color: blueviolet;background-color: aqua;"/>
+     
+</form>
+
+    </body>
+</html>
